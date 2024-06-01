@@ -1,0 +1,91 @@
+
+.imagen2{
+    width: 95%;
+    margin-left: 22px;
+    margin-top: -120px;
+  }
+  
+  ion-list{
+    margin-top: 0px;
+  }
+  .tit {
+    padding-top: 0px;
+    margin-top: 60px;
+    color: white;
+    background-color: white;
+    -webkit-text-stroke: 3px blue;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+  }
+  
+  .subtit {
+    color: rgb(109, 12, 12);
+    background-color: white;
+    -webkit-text-stroke: 1px blue;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+  }
+  
+  
+
+  .pinfo {
+    display: inline-block;
+    font-size: 17px;
+    color: black;
+  }
+  
+  .ptit {
+    font-weight: 800;
+  }
+  
+  ion-card-title {
+    font-weight: 700;
+    color: black;
+  }
+  
+  ion-card {
+    box-shadow: none;
+    background-color: rgb(233, 233, 233);
+    border-radius: 50px;
+    height: 190px;
+    margin-left: 11px;
+    flex: 94;
+    margin-top: 30px;
+  }
+  .card-content {
+    padding: 24px; /* Ajusta el padding según sea necesario */
+    margin-top: -34px;
+  }
+  
+  .ptit {
+    margin: 8px 0; /* Espacio entre cada párrafo */
+    font-weight: bold; /* Opcional: para resaltar los títulos */
+    color: #333; /* Ajusta el color según sea necesario */
+  }
+  
+  .text-noti{
+
+    margin-left: 9px;
+  }
+  
+  .procesoReporte {
+    text-transform: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 45px;
+    width: 150px;
+  }
+  
+  .finalizadoReporte {
+    text-transform: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 45px;
+    width: 150px;
+  }

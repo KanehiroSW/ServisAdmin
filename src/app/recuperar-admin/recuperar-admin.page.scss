@@ -1,0 +1,38 @@
+.recuperar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  form {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  ion-list {
+    margin-top: 20px;
+  }
+  
+  h1, h3 {
+    text-align: center;
+  }
+  
+  ion-item {
+    margin-bottom: 15px;
+  }
+  
+  ion-button {
+    --background: #4CAF50;
+    --color: #fff;
+    --border-radius: 5px;
+  }
+  
+  ion-button:hover {
+    --background: #45a049;
+  }
+  

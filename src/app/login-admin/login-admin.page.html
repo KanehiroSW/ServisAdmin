@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>L O G I N</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="login">
+    <form class="custom-form" method="post" (ngSubmit)="login()">
+      <h1>Campus Incidents</h1>
+      <ion-item class="img-cabezera">
+        <ion-img src="assets/imagenes/icon_alarma.png" alt="Logo de la aplicación"></ion-img>
+      </ion-item>
+      <ion-item class="input-with-icon">
+        <ion-img src="assets/imagenes/icon_usuario.png" alt="Logo de Usuario"></ion-img>
+        <input type="usuario" [(ngModel)]="usuario" name="Usuario" placeholder="Usuario" required />
+      </ion-item>
+      <ion-item class="input-with-icon">
+        <ion-img src="assets/imagenes/icon_pasword.png" alt="Logo de contraseña"></ion-img>
+        <input type="password" [(ngModel)]="password" name="password" placeholder="Contraseña" required />
+      </ion-item>
+      <button type="submit">Ingresar</button>
+
+      <div class="separator">O</div>
+
+      <div class="recuperar-Cuenta">
+        <a href="#" (click)="recuperarCuenta($event)">¿Olvidaste tu contraseña?</a>
+      </div>
+    </form>
+  </div>
+</ion-content>

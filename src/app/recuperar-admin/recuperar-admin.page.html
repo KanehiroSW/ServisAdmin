@@ -1,0 +1,42 @@
+
+<ion-header >
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/login-admin"></ion-back-button>
+    </ion-buttons>
+    <ion-title >Recuperar Cuenta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  [fullscreen]="true" >
+  <div class="recuperar">
+    <form (ngSubmit)="recuperar()" action="your-endpoint" method="post">
+      <ion-list>
+        <ion-label color="primary">
+          <h1>Reestablecer contraseña</h1>
+        </ion-label>
+        <br>
+        <h3>En esta opción te ayudaremos a reestablecer tu contraseña, debes proporcionarnos la información necesaria para tal propósito</h3>
+        <ion-item>
+          <ion-input type="text" name="usuario" label="Usuario" label-placement="floating" fill="outline" placeholder="Escribe tu Usuario" required></ion-input>
+        </ion-item>
+        <br>
+        <ion-item>
+          <ion-input type="text" name="codigoUsuario" label="Código de Usuario" label-placement="floating" fill="outline" placeholder="Escribe tu Código de Usuario" required></ion-input>
+        </ion-item>
+        <br>
+        <ion-item>
+          <ion-input type="password" name="passwordNuevo" label="Contraseña nueva" label-placement="floating" fill="outline" placeholder="Escribe tu contraseña nueva" required></ion-input>
+        </ion-item>
+        <br>
+        <ion-item>
+          <ion-input type="password" name="confirmarPassword" label="Confirmar contraseña" label-placement="floating" fill="outline" placeholder="Confirmar tu contraseña nueva" required></ion-input>
+        </ion-item>
+        <br>
+        <ion-button type="submit" expand="block">ACEPTAR</ion-button>
+      </ion-list>
+    </form>
+  </div>
+</ion-content>
+
+

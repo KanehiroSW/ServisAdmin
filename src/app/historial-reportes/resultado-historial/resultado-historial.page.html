@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/historial-reportes"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="finalizado">Resultado Historial</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item lines="none">
+      <ion-label class="tit">REPORTE DE INCIDENTE</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label class="subtit">NUEVO INCIDENTE</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+
+      <ion-card>
+        <ion-card-header class="text-noti">
+          <ion-card-title>NOTIFICACIÓN</ion-card-title>
+        </ion-card-header>
+        <ion-card-content class="card-content">
+          <p class="ptit">Servicio: Mantenimiento</p>
+          <p class="ptit">Zona: Pabellon"B"- Piso 9 Aula 915</p>
+          <p class="ptit">Fecha:25/05/2024</p>
+          <p class="ptit">Descripción: Se me derramo mi agua en el salon 915</p>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+  <img src="assets/imagenes/logito.png" alt="logo" class="imagen2">
+</ion-content>

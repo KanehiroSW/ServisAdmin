@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+  
+  
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.header h1 {
+    font-size: 27px;
+    color: blue;
+    font-family: 'Poppins', sans-serif; /* Aplicar la fuente */
+    font-weight: 800; /* Aplicar negrita */
+}
+  
+.header h2 {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Aplicar la fuente */
+    font-weight: 800; /* Aplicar negrita */
+}
+  
+.notifications {
+    width: 80%;
+    max-width: 400px;
+}
+  
+.notification {
+    margin-bottom: 30px;
+    border-radius: 40px;
+    overflow: hidden; /* Asegura que los bordes redondeados se apliquen correctamente */
+    font-family: 'Poppins', sans-serif; /* Aplicar la fuente */
+    font-weight: 700; /* Aplicar negrita */
+    height: 50px;
+}
+  
+.footer {
+    margin-top: 20px;
+    width: 100%;
+}
+  
+.bar {
+    height: 20px;
+}

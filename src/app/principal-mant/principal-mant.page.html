@@ -1,0 +1,68 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menu de Usuario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <div class="usuario"> 
+      <ion-header>
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <h5>MANTENIMIENTO:</h5>
+        <h5>Anali Patracio</h5>
+      <h5>600234567</h5>
+    </ion-header>
+    </div>
+    <br>
+    <ion-item button detail="true">
+      <ion-label>
+        <h3>Editar Perfil</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-list >
+      <ion-item button detail="true" routerLink="/historial-reportes">
+        <ion-label >
+          <h3>Historial de Incidentes</h3>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+    
+  
+
+    <ion-button id="open-loading">Cerrar Sesión</ion-button>
+    <ion-loading trigger="open-loading" message="Dismissing after 3 seconds..." duration="3000"></ion-loading>
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header >
+    <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+        <ion-title class="finalizado" >Notificaciones de Mantenimiento</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+  <ion-content>
+    <div class="container">
+      <div class="header">
+        <h1>REPORTE DE INCIDENTE</h1>
+        <h2>NUEVO INCIDENTE!!!</h2>
+      </div>
+      <div class="notifications">
+        <ion-button (click)="navigateToPage()" expand="block" class="notification" color="danger">NOTIFICACIÓN 1</ion-button>
+        <ion-button (click)="navigateToPage()" expand="block" class="notification" color="danger">NOTIFICACIÓN 2</ion-button>
+        <ion-button (click)="navigateToPage()" expand="block" class="notification" color="danger">NOTIFICACIÓN 3</ion-button>
+        <ion-button (click)="navigateToPage()" expand="block" class="notification" color="danger">NOTIFICACIÓN 4</ion-button>
+        <ion-button (click)="navigateToPage()" expand="block" class="notification" color="danger">NOTIFICACIÓN 5</ion-button>
+      </div>
+    </div>
+    <img src="assets/imagenes/logito.png" alt="logo" class="imagen2">
+  </ion-content>
+</div>
+
+
